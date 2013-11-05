@@ -158,7 +158,7 @@ bool checkValid(char input[], char letters[])
 	return allValid;
 }
 
-int userInput(char letters[])
+int userInput(char letters[])//Problem
 {
 	bool validWord;
 	int netScore = 0;
@@ -185,7 +185,7 @@ int userInput(char letters[])
 	return netScore;
 }
 
-int scoreGained(char input[])
+int scoreGained(char input[])//Problem
 {
 	int scoreGained = 0;
 
@@ -200,7 +200,7 @@ int scoreGained(char input[])
 	return scoreGained;
 }
 
-int scoreLost(char input[], char letters[])
+int scoreLost(char input[], char letters[])//Problem
 {
 	int scoreLost = 0;
 	bool inList[6];
